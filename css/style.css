@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* h1 {
+  background-color: #333;
+  color: white;
+}
+
+.cha:hover .item {
+  display: block;
+}
+
+.item {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* độ lướt */
+/* transition: all 1s; */
+/* display: none;
+  cursor: pointer;
+} */
+
+img {
+  width: 200px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+img:hover {
+  /* dịch theo chục y */
+  /* transform: translateY(-10px); */
+  /* phóng to ra 10% */
+  /* transform: scale(1.1); */
+  transform: scale(1.05) translateY(-15px);
+  opacity: 1;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #333;
+}
